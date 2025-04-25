@@ -18,5 +18,4 @@ Projeto web que consome a API do The Movie Database (TMDb) para exibir os filmes
 
 ## 🖼️ Prévia
 
-![Print da página principal](prints/print1.png)
-![Print da página de detalhes](prints/print2.png)
+[![Texto alt](prints/print1.png)](prints/print1.png)
