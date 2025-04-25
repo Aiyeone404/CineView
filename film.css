@@ -1,0 +1,47 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-image: linear-gradient(to right,#0D0D0D,#8C1414);
+}
+.box-titulo{
+    background-image:linear-gradient(to bottom,#D94032,#F2766B);
+    height: 110px;
+}
+.titulo{
+    text-align: center;
+    font-size: 30px;
+}
+#movies-container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 22px;
+    margin: 10px;
+    margin-right: 27px;
+}
+#navegaçao{
+    font-size:35px;
+    display: flex;
+    gap: 35px;
+    margin: 10px;
+}
+#navegaçao >a{
+    color: black;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+#navegaçao>a:hover{
+    text-decoration: underline;
+    transform: translateX(10px);
+}
+.movie img{
+    height: 270px;
+    width: 200px;
+    border-radius: 10px;
+}
+.movie img:hover{
+    transform: translateY(-6px);
+    transition-duration:3s;
+}

@@ -1,0 +1,28 @@
+.poster-detalhes{
+    width: 280px;
+    height: auto;
+    margin: 18px;
+    margin-left: 90px;
+}
+
+#movie-details{
+    background-image: linear-gradient(to left, #0D0D0D,#8C1414);
+    width: 500px;
+    border-radius: 13px;
+    margin: auto;
+}
+.sinopse{
+    font-size: 18px;
+    color: white;
+}
+.lancamento-data{
+    font-size: 25px;
+    color: white;
+}
+.title-overview{
+    text-align: center;
+    color: tomato;
+}
+.avaliaçao > i{
+    margin-left: 13px;
+}
